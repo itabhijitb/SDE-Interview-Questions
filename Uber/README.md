@@ -16,25 +16,25 @@ Also report a fraud if a Voter tries to vote twice or try to vote more then one 
 Assume that the database is offline.
 - Write a program to check whether Sudoku is valid or not.
 - Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.
-- Given an array of words, print the count of all anagrams together in sorted order (increasing order of counts).
+- [Given an array of words, print the count of all anagrams together in sorted order (increasing order of counts).](https://leetcode.com/problems/group-anagrams)
 For example, if the given array is {“cat”, “dog”, “tac”, “god”, “act”}, then grouped anagrams are “(dog, god) (cat, tac, act)”. So the output will be 2 3.
 - Given a roman numeral, convert it to an integer.
-- Given a set of candidate numbers (C) (without duplicates) and a target number (T), find all unique combinations in C where the candidate numbers sums to T.
+- [Given a set of candidate numbers (C) (without duplicates) and a target number (T), find all unique combinations in C where the candidate numbers sums to T.](https://leetcode.com/problems/combination-sum)
 The same repeated number may be chosen from C unlimited number of times.
-- Given a digit string, return all possible letter combinations that the number could represent in a T9 keypad.
+- [Given a digit string, return all possible letter combinations that the number could represent in a T9 keypad.](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
    ```
    Input:Digit string "23"
   Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
   ```
-- Given two list of unsorted intervals V1 and V2 write 2 functions 'OR ' and 'AND' to return a new list
+- [Given two list of unsorted intervals V1 and V2 write 2 functions 'OR ' and 'AND' to return a new list](https://leetcode.com/problems/merge-intervals)
 
   OR Function (union of list ): Input V1 = (2,4) (6,8) (1,3) V2 = (7,9) (2,5)
   Output = (1,5) (6,9)
 
   AND function : This will be intersection function and will return intersection of the lists.
-- Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
-Your algorithm should run in O(n) complexity.
-- Generate all possible matched parenthesis, given n left parenthesis and right parenthesis needs to be matched.
+- [Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
+Your algorithm should run in O(n) complexity.](https://leetcode.com/problems/longest-consecutive-sequence)
+- [Generate all possible matched parenthesis, given n left parenthesis and right parenthesis needs to be matched.](https://leetcode.com/problems/generate-parentheses)
 - There is a notepad which accepts only four operations:
   1. Character X
   2. select all
@@ -42,7 +42,7 @@ Your algorithm should run in O(n) complexity.
   4. paste
   
   Given n number of operations, provide the sequence of choices that gives maximum characters in the notepad.  
-- Given a non-empty array containing only positive integers, find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.
+- [Given a non-empty array containing only positive integers, find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.](https://leetcode.com/problems/partition-equal-subset-sum)
 - Given a list of system packages, some packages cannot be installed until the other packages are installed. Provide a valid sequence to install all of the packages.
 
   e.g.
@@ -51,8 +51,8 @@ Your algorithm should run in O(n) complexity.
   b relies on c
 
   then a valid sequence is [c, b, a].  
-- Given a string s, partition s such that every substring of the partition is a palindrome.
-   Return all possible palindrome partitioning of s.  
+- [Given a string s, partition s such that every substring of the partition is a palindrome.
+   Return all possible palindrome partitioning of s.](https://leetcode.com/problems/palindrome-partitioning)
 - Given a string s, return all the palindromic permutations ( without duplicates), of it. Return an empty array if no palindromic combinations can be formed.
 - Given an input string and ordering string, need to return true if the ordering string is present in Input string.
 - Given a sorted dictionary (array of words) of an alien language, find order of characters in the language.
